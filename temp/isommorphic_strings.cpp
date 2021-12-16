@@ -1,3 +1,4 @@
+#include<map>
 #include<iostream>
 #include<unordered_map>
 #include<string>
@@ -50,6 +51,10 @@ int main(){
 
    cout<<endl<<isIsomorphic(str[0],str[1])<<endl;
   //cout<<endl<<maxIsomorphicStrings(str)<<endl;
+
+  map<int,int> mp;
+
+  
 
     return 0;
 }
