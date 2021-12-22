@@ -10,16 +10,17 @@ int gcd(int a,int b){
 
 int main(){
     int a,b;
-    cin>>a>>b;
+  //  cin>>a>>b;
 
-    int x=gcd(a,b);
-    //cout<<x<<endl;
+    int x=gcd(50,60);
+    cout<<x<<endl;
     int ans=0;
     for(int i=1,n=sqrt(x);i<=n;i++)
           if(x%i==0){
            ans++;//                                        /
-           int temp=x/i;// we are counting factors after sqrt(num) 
+           int temp=x/i;
+           // we are counting factors after sqrt(num) 
            if(temp!=i)ans++;
           }
-   cout<<ans<<endl;
+   //cout<<ans<<endl;
 }
